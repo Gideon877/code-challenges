@@ -7,7 +7,7 @@ Table of contents
   * [Sort Me](#sort-me)
 
 
-Rotate 2D Array (Image)
+Rotate 2D Array
 ============
 
 You are given an n x n 2D matrix that represents an image. Rotate the image by 90 degrees (clockwise).
@@ -30,7 +30,7 @@ rotateImage(a) =
      [9, 6, 3]]
 ```
 
-Fiz-Buzz
+Fizz-Buzz
 ============
 Fizz buzz is a group word game for children to teach them about division.[1] Players take turns to count incrementally, replacing any number divisible by three with the word "fizz", and any number divisible by five with the word "buzz".
 
