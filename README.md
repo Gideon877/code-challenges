@@ -1,8 +1,8 @@
 Table of contents
 =================
 
-  * [Rotate 2D Array](#Rotate-2D-Array)
-  * [Fizz-Buzz](#fizz-buzz)
+  * [Rotate 2D Array](#rotate-2d-array)
+  * [Fizz Buzz](#fizz-buzz)
   * [First Non-Repeating Character](#first-non-repeating-character)
   * [Sort Me](#sort-me)
 
