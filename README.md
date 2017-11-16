@@ -5,6 +5,7 @@ Table of contents
   * [Fizz Buzz](#fizz-buzz)
   * [First Non-Repeating Character](#first-non-repeating-character)
   * [Sort Me](#sort-me)
+  * [Word Crush](#word-crush)
 
 
 Rotate 2D Array
@@ -55,3 +56,12 @@ Sort Me
 ============
 
 sorts the items of an array. The sort order can be either alphabetic or numeric, and either ascending (up) or descending (down).
+
+
+Word Crush
+============
+
+Given a sentence, the following functions:
+* Find the longest word (longestWord) - the last one in the sentence.
+* Find the shortest word (shortestWord) - the last one in the sentence.
+* Find the sum of all the word lengths, in a sentence. (wordLengths).
