@@ -6,6 +6,7 @@ Table of contents
   * [First Non-Repeating Character](#first-non-repeating-character)
   * [Sort Me](#sort-me)
   * [Word Crush](#word-crush)
+  * [First Factorial](#first-factorial)
 
 
 Rotate 2D Array
@@ -65,3 +66,9 @@ Given a sentence, the following functions:
 * Find the longest word (longestWord) - the last one in the sentence.
 * Find the shortest word (shortestWord) - the last one in the sentence.
 * Find the sum of all the word lengths, in a sentence. (wordLengths).
+
+
+First Factorial
+============
+
+The function `FirstFactorial(number)` take the number parameter being passed and return the factorial of it (e.g. if number = 4, return (4 * 3 * 2 * 1)). 
