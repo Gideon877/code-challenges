@@ -71,4 +71,7 @@ Given a sentence, the following functions:
 First Factorial
 ============
 
-The function `FirstFactorial(number)` take the number parameter being passed and return the factorial of it (e.g. if number = 4, return (4 * 3 * 2 * 1)). 
+The function `FirstFactorial(number)` take the number parameter being passed and return the factorial of it.
+
+* e.g. if number = 4, return (4 * 3 * 2 * 1)
+* Output: `24`
