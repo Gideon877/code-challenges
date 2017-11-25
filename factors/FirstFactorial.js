@@ -1,4 +1,4 @@
-function FirstFactorial(number) {
+module.exports = function FirstFactorial(number) {
     var count = 0;
     var array = []
     for (var index = 1; index <= number; index++) {
@@ -17,4 +17,3 @@ function FirstFactorial(number) {
     }
     return count;
 }
-// console.log(FirstFactorial(8))

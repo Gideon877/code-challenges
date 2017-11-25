@@ -1,28 +1,30 @@
-s = "abacabaabacabac"
+// s = "abacabaabacabac"
 
-var map = {},
+module.exports = function nonRepeating(letters){
+    var map = {},
     results = "",
     arr = []
-for (var i = 0; i < s.length; i++) {
-    var letter = s[i]
-    if (map[letter] === undefined) {
-        map[letter] = 1
-    } else if (map[letter] !== undefined) {
-        map[letter] = map[letter] + 1
+    for (var i = 0; i < letters.length; i++) {
+        var eachLetter = letters[i]
+        if (map[eachLetter] === undefined) {
+            map[eachLetter] = 1
+        } else if (map[eachLetter] !== undefined) {
+            map[eachLetter] = map[eachLetter] + 1
+        }
     }
-}
 
-var len = Object.keys(map).length;
+    var len = Object.keys(map).length;
 
-for (var a in map) {
-    if (map[a] <= 1) {
-        arr.push(a)
+    for (var a in map) {
+        if (map[a] <= 1) {
+            arr.push(a)
+        }
     }
-}
-if (arr[0] !== undefined) {
-    results = arr[0]
-} else {
-    results = "'_'"
-}
+    if (arr[0] !== undefined) {
+        results = arr[0]
+    } else {
+        results = "'_'"
+    }
+    return results
 
-console.log(results)
+}

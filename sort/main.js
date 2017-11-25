@@ -1,5 +1,4 @@
-function sortMe(arr) {
-
+module.exports = function sortMe(arr) {
     for (var i = 0; i < arr.length; i++) {
         for (var a = i + 1; a < arr.length; a++) {
             if (arr[i] > arr[a]) {
@@ -12,4 +11,4 @@ function sortMe(arr) {
     return arr;
 }
 
-console.log(sortMe([7, 5, 2, 4, 3, 9, 10, 1]));
+// console.log(sortMe([7, 5, 2, 4, 3, 9, 10, 1]));

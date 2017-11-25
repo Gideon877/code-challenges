@@ -9,7 +9,7 @@ function wordLengths(sentence){
 
 //The following function finds the sum of each the word in a sentence. (wordCount)
 
-function wordCount(sentence){
+module.exports = function wordCount(sentence){
     var words = sentence.split(' ');
     return words.length
 }

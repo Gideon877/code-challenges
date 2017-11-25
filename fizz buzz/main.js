@@ -1,25 +1,11 @@
-var fizzBuzz = 0,
-    fizz = 0,
-    buzz = 0,
-    i = 1;
-
-while (i <= 100) {
-
-    if (i % 3 === 0 && i % 5 === 0) {
-        console.log(i + " Fizz Buzz");
-        fizzBuzz += 1;
-    } else if (i % 3 === 0) {
-        console.log(i + " Fizz")
-        fizz += 1;
-
-    } else if (i % 5 === 0) {
-        console.log(i + " Buzz")
-        buzz += 1;
-
+module.exports = function main(number) {
+    if (number % 3 === 0 && number % 5 === 0) {
+        return 'fizz-buzz'
+    } else if (number % 3 === 0) {
+        return 'fizz';
+    } else if (number % 5 === 0) {
+        return 'buzz'
     } else {
-        console.log(i)
+        return number
     }
-    i++
 }
-
-console.log("Fizz-Buzz: " + fizBuzz + " Buzz: " + buzz + " Fizz: " + fizz)
