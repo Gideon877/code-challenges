@@ -1,13 +1,5 @@
-module.exports = function openOrSenior(data) {
-    var results = [];
-    data.forEach(function(element) {
-        var age = element[0],
-            handicap = element[1];
-        if (age >= 55 && handicap > 7) {
-        results.push("Senior");
-        } else {
-        results.push("Open");
-        }
+module.exports = function openOrSenior(data){
+    return data.map(function(d){
+      return d[0] >= 55 && d[1] > 7 ? 'Senior' : 'Open';
     });
-    return results;
-}
+  }
