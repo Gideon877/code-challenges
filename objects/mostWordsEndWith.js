@@ -25,3 +25,6 @@ var mostWordsEndWith = function(sentence){
 }
 
 console.log(mostWordsEndWith('Down by the river there is a man that quiver and shiver, but he needs to deliver a packet that he think is a big racket and a packet of of gum.'))
+
+
+module.exports = { mostWordsEndWith };

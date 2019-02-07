@@ -61,3 +61,6 @@ function getHigest(params) {
     }
     return profitableDay;
 }
+
+
+module.exports = { mostProfitableDay, mostProfitableDepartment, data };
