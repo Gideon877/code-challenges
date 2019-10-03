@@ -1,5 +1,5 @@
 const assert = require('assert');
-const longestWord = require('../word crush/longest word');
+const longestWord = require('../word-crush/longest word');
 
 describe('longestWord function',function(){
     it('should find the longest word in the sentence', function(){

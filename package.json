@@ -1,0 +1,12 @@
+{
+  "name": "code-challenges",
+  "version": "1.0.0",
+  "description": "katas",
+  "main": "index.js",
+  "repository": "git@github.com:Gideon877/code-challenges.git",
+  "author": "Thabang Gideon Magaola <gideon877@live.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}

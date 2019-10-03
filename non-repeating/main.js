@@ -13,7 +13,7 @@ module.exports = function nonRepeating(letters){
         }
     }
 
-    var len = Object.keys(map).length;
+    // var len = Object.keys(map).length;
 
     for (var a in map) {
         if (map[a] <= 1) {

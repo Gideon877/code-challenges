@@ -25,7 +25,6 @@ module.exports = function rotateImage(myArr) {
         }
 
     })
-    // console.log(rotatedArray);
     return rotatedArray;
 }
 

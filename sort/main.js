@@ -1,4 +1,6 @@
-module.exports = function sortMe(arr) {
+const _ = require('lodash')
+
+const sortMe = (arr) => {
     for (var i = 0; i < arr.length; i++) {
         for (var a = i + 1; a < arr.length; a++) {
             if (arr[i] > arr[a]) {
@@ -11,4 +13,12 @@ module.exports = function sortMe(arr) {
     return arr;
 }
 
-// console.log(sortMe([7, 5, 2, 4, 3, 9, 10, 1]));
+const getCommonElement = (Array1, Array2) => {
+    if (_.isEmpty(Array1) || _.isEmpty(Array2)) return [];
+    return Array1.filter((number1) => Array2.includes(number1))
+}
+
+module.exports = {
+    sortMe,
+    getCommonElement
+}

@@ -1,5 +1,5 @@
 const assert = require('assert');
-const shortestWord = require('../word crush/shortest word');
+const shortestWord = require('../word-crush/shortest word');
 
 describe('shortestWord function', function() {
     it('return the last short word in a sentence', function() {
