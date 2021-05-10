@@ -7,6 +7,6 @@
   "author": "Thabang Gideon Magaola <gideon877@live.com>",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.21"
   }
 }
